@@ -1,0 +1,76 @@
+h1 {
+    background-color: #0A1D56;
+    background-size: contain;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 6px;
+    color: bisque;
+}
+
+body {
+    background-image: url(../picture/money.png.jpg);
+    background-size: cover;
+}
+
+#container {
+    text-align: center;
+
+}
+
+.title {
+    color: white;
+}
+
+form {
+    background-color: rgb(12, 198, 204);
+    width: 350px;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 6px;
+
+}
+
+#info {
+    text-align: left;
+    display: inline-block;
+    margin: 12px auto;
+}
+
+button {
+    width: 100px;
+    border-radius: 6px;
+    border: 0px;
+    height: 24px;
+    margin: 0 3px;
+    background-color: beige;
+
+}
+
+
+#reset {
+    background-color: #F2F597;
+}
+
+label {
+    font-weight: bold;
+}
+
+#calcRule {
+    background-color: #C499F3;
+    border-radius: 6px;
+}
+
+select,
+option {
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+}
+
+select {
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+}
+
+input
