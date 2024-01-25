@@ -21,7 +21,7 @@
                     <option value="1">1年</option>
                     <option value="3">3年</option>
                     <option value="5" selected>5年</option>
-                    <option value="4">7年</option>
+                    <option value="7">7年</option>
                     <option value="10">10年</option>
                     <option value="20">20年</option>
                     <option value="30">30年</option>
@@ -32,18 +32,24 @@
                 <br>
                 <input type="checkbox" name="fee" id="fee" checked>手續費(5000)
                 <br>
-                <div id="calcRule">
-                    <label for="">計算方式</label>
-                    <input type="radio" name="reqpayment" id="paymenet1" checked>本金攤還
-                    <input type="radio" name="reqpayment" id="paymenet2">本息攤還
-                    <br>
-                </div>
             </div>
+            <div id="calcRule">
+                <label for="">計算方式</label>
+                <input type="radio" name="reqpayment" id="payment1" checked>本金攤還
+                <input type="radio" name="reqpayment" id="payment2">本息攤還
+                <br>
+            </div>
+
             <br>
             <button type="button" id="calc">計算</button>
             <button type="button" id="reset">重置</button>
         </form>
-
+        <div id="result" style="color:#33186B;">
+            總還款金額:
+            <div class="totalAmount"></div>
+            總支出利息:
+            <div class="totalInterest"></div>
+        </div>
 
 
     </div>
